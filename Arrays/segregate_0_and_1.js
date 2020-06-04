@@ -25,7 +25,12 @@ function segregate0And1(arr){
         while(arr[right] === 1 && left < right) {
             right--
         }
-        swap(arr, left, right);
+
+        if(left< right) {
+            swap(arr, left, right); 
+            left++;
+            right-- 
+       }
     }
 }
 
