@@ -44,7 +44,7 @@ function mergeOverlap(arr){
          }
      });
 
-     while(stack.length === 0) {
+     while(stack.length) {
          console.log(stack.pop());
      }
 }
