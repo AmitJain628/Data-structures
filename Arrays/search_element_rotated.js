@@ -10,6 +10,8 @@ Output : Found at index 3
 
 Approach: 1. find pivot element -> next element is smaller than it
              1. mid = 2  
+
+Approach 2: One sub array is always stickly increasing
 */
 
 
