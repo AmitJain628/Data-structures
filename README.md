@@ -5,7 +5,7 @@
 3. https://www.geeksforgeeks.org/find-four-numbers-with-sum-equal-to-given-sum/
 4. https://www.geeksforgeeks.org/given-a-sorted-and-rotated-array-find-if-there-is-a-pair-with-a-given-sum/
 
-#Stack
+# Stack
 
 1. https://www.geeksforgeeks.org/queue-using-stacks/
 2. https://www.geeksforgeeks.org/efficiently-implement-k-stacks-single-array/
