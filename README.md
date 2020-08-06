@@ -4,6 +4,7 @@ Proposed Solution:
 1. Try applying Binary search
 2. Take two pointer i and i + 1
 3. Try by sorting the array, then implement the logic 
+4. Try creating a Hashmap
 
 
 # Data-structures
