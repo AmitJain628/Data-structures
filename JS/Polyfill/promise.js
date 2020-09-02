@@ -8,7 +8,7 @@ class MyPromise {
         this.state = 'PENDING';
         this.value;
         this._rejectionReason
-        executor(this._resolve.bind(this));
+        executor(this._resolve.bind(this), this._reject.bind(this));
     }
 
     _runResolutionHandler(){
