@@ -8,7 +8,7 @@ class MyPromise {
         this.state = 'PENDING';
         this.value;
         this._rejectionReason
-        executor(this._resolve.bind(this));
+        executor(this._resolve.bind(this), this._reject.bind(this));
     }
 
     _runResolutionHandler(){
@@ -18,13 +18,13 @@ class MyPromise {
                 
                 if(returnValue && returnValue instanceof MyPromise){
                     returnValue.then((function(result) {
-                    resolution.resolve(result);
+                    resolution.promise._resolve(result);
                     })).catch((error) => {
                 resolution.promise._reject(error);
                   });
 
                 } else {
-                    resolution.resolve(returnValue);
+                    resolution.promise._resolve(returnValue);
                 }
             }
     }
@@ -36,12 +36,12 @@ class MyPromise {
                 
             if(returnValue && returnValue instanceof MyPromise){
                 returnValue.then((function(result) {
-                rejection.resolve(result);
+                rejection.promise._resolve(result);
             })
             );
 
             } else {
-                rejection.resolve(returnValue);
+                rejection.promise._resolve(returnValue);
             }
         }
     }
