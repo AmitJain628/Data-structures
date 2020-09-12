@@ -1,0 +1,2 @@
+// Differnece between pub sub and observer pattern
+//https://medium.com/better-programming/observer-vs-pub-sub-pattern-50d3b27f838c#:~:text=In%20the%20observer%20pattern%2C%20the,message%20queues%20or%20a%20broker.
