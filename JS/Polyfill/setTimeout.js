@@ -1,3 +1,5 @@
+// Set timeout polfyill
+
 (function(){
 
  var timer = {};
