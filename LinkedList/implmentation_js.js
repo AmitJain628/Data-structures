@@ -7,7 +7,7 @@ class LinkedListNodes {
     }   
 }
 
-class LinkedList{
+export default class LinkedList {
     constructor(value){
         this.size =0;
         this.head = null;
@@ -150,6 +150,12 @@ class LinkedList{
 
     return deletedTail;
   }
-
-
 }
+
+var list = new LinkedList();
+
+console.log(list.head);
+list.append(1);
+console.log(list.head);
+list.append(2);
+console.log(list.head);

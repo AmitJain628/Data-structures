@@ -1,4 +1,4 @@
-// Polyfill for map
+ // Polyfill for map
 
 Array.prototype.map = function(callback){
     let result = [];
