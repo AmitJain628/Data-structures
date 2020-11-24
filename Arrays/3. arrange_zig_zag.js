@@ -1,4 +1,6 @@
 /*
+GeeksforGeeks link: https://www.geeksforgeeks.org/convert-array-into-zig-zag-fashion/
+
 Input: arr[] = {4, 3, 7, 8, 6, 2, 1}
 Output: arr[] = {3, 7, 4, 8, 2, 6, 1}
 
