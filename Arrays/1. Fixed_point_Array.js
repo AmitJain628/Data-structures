@@ -1,4 +1,6 @@
+
 /*
+GeeksForGeeks link: https://www.geeksforgeeks.org/find-a-fixed-point-in-a-given-array/
 
 i/p: [-10, -5, 0, 3, 7]
 o/p: arr[3] =3
