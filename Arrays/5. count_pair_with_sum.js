@@ -1,4 +1,6 @@
 /*
+GeeksForGeeks link: https://www.geeksforgeeks.org/count-pairs-with-given-sum/
+
 Input  :  arr[] = {1, 5, 7, -1}, 
           sum = 6
 Output :  2
