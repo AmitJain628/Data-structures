@@ -1,3 +1,7 @@
+/*
+GeeksForGeeks link: https://www.geeksforgeeks.org/count-strictly-increasing-subarrays/
+*/
+
 function getSubArray(arr) {
     let count = 0;
     let len = 1;
