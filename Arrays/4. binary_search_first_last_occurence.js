@@ -1,5 +1,7 @@
 /*
 
+GeeksforGeeks link: https://www.geeksforgeeks.org/find-first-and-last-positions-of-an-element-in-a-sorted-array/
+
 var arr = [2, 4, 10, 10, 10, 18, 20]
 
 Approach: calculate mid
