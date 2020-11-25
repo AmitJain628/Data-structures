@@ -1,9 +1,8 @@
 
 # Amazon Interview Questions
-https://www.geeksforgeeks.org/amazon-interview-questions/
-https://www.educative.io/blog/crack-amazon-coding-interview-questions
-
-https://practice.geeksforgeeks.org/explore/?company%5B%5D=Amazon&page=1
+1. https://www.geeksforgeeks.org/amazon-interview-questions/
+2. https://www.educative.io/blog/crack-amazon-coding-interview-questions
+3. https://practice.geeksforgeeks.org/explore/?company%5B%5D=Amazon&page=1
 
 
 # Array
