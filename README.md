@@ -1,14 +1,12 @@
+
+# Amazon Interview Questions
+https://www.geeksforgeeks.org/amazon-interview-questions/
+https://www.educative.io/blog/crack-amazon-coding-interview-questions
+
+https://practice.geeksforgeeks.org/explore/?company%5B%5D=Amazon&page=1
+
+
 # Array
-
-Proposed Solution:
-1. Try applying Binary search
-2. Take two pointer i and i + 1
-3. Try by sorting the array, then implement the logic 
-4. Try creating a Hashmap
-
-
-# Data-structures
-
 1. https://www.geeksforgeeks.org/print-distinct-elements-given-integer-array/
 2. https://www.geeksforgeeks.org/find-subarray-with-given-sum-in-array-of-integers/
 3. https://www.geeksforgeeks.org/find-four-numbers-with-sum-equal-to-given-sum/
