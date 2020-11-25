@@ -1,5 +1,7 @@
 /*
 
+GeeksForGeeks: https://www.geeksforgeeks.org/implement-two-stacks-in-an-array/#:~:text=A%20simple%20way%20to%20implement,size%20of%20array%20be%20n.
+
 push1(x) -> push in first stack
 push2(x) -> push in second stack
 
