@@ -1,4 +1,6 @@
-
+/*
+Heap: https://www.youtube.com/watch?v=HqPJF2L5h9U
+*/
 
 function getKthPostion(arr, l, h, k){
        let pos = partition(arr, l, h);
