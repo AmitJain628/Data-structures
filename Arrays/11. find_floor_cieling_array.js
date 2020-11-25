@@ -1,5 +1,9 @@
 /*
 
+GeeksForGeeks: https://www.geeksforgeeks.org/find-floor-ceil-unsorted-array/
+https://www.geeksforgeeks.org/ceiling-in-a-sorted-array/
+https://www.geeksforgeeks.org/floor-in-a-sorted-array/
+
 Array -> [1, 2, 8, 10, 10, 12, 19]
 i/p-> 0    o/p -> floor = -1 ciel = 1
 i/p-> 1    o/p -> floor = 1 ciel = 1 
