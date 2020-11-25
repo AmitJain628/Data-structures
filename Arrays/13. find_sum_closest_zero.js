@@ -1,5 +1,7 @@
 /*
 
+GeeksForGeeks link: https://www.geeksforgeeks.org/two-elements-whose-sum-is-closest-to-zero/
+
 i/p -> [1, 60, -10, 70, -80, 85]
 
 o/p -> -80 ,85
