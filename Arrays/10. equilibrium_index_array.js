@@ -1,4 +1,5 @@
 /*
+GeeksForGeeks link: https://www.geeksforgeeks.org/equilibrium-index-of-an-array/
 
 Input: A[] = {-7, 1, 5, 2, -4, 3, 0}
 Output: 3
