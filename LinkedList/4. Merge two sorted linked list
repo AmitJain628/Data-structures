@@ -1,0 +1,56 @@
+/*
+https://www.educative.io/m/merge-two-sorted-linked-lists#
+
+
+*/
+
+import LinkedList from './implmentation_js';
+
+var list1 = new LinkedList();
+
+list1.append(4);
+list1.append(8);
+list1.append(15);
+list1.append(19);
+
+var list2 = new LinkedList();
+
+list2.append(7);
+list2.append(9);
+list2.append(10);
+list2.append(16);
+
+
+function mergeTwoSortedLinkedList(){
+
+if(list1 === null){
+ return list2;
+}else if(list1 === null){
+ return list1;
+}
+
+
+let ptr1 = list1.head;
+let ptr2 = list2.head;
+
+let newList = new LinkedList();
+
+while(ptr1.next && ptr2.next){
+ if(ptr1.data < ptr2.data) {
+      newList.append(ptr1.data);
+      ptr1 = ptr1.data;
+ } else {
+      newList.append(ptr2.data);
+      ptr2 = ptr2.data;
+ }
+  
+  if(ptr1){
+   // add ptr1 item 
+  }
+  
+  if(ptr2){
+   // add ptr item 
+  }
+}
+
+}
