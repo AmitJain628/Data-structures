@@ -2,6 +2,8 @@
 
 https://www.educative.io/m/string-segmentation
 
+Time complexity -> O(2^n)
+
 */
 
 function canStringSegmentation(str, arr){
