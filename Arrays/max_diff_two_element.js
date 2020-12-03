@@ -1,5 +1,7 @@
 /*
 
+https://www.geeksforgeeks.org/maximum-difference-between-two-elements/
+
 i/p -> [2, 3, 10, 6, 4, 8, 1]
 o/p -> 8, max diff is 1 and 10
 
