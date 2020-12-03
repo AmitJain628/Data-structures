@@ -1,3 +1,9 @@
+/*
+
+Solution: https://www.geeksforgeeks.org/find-the-smallest-positive-number-missing-from-an-unsorted-array/
+
+*/
+
 function solution(A) {
     // move all negative to start
     let startIndex = moveNegative(A);
