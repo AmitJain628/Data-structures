@@ -1,4 +1,7 @@
 /*
+
+GeeksForGeeks: https://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/
+
 Input  : arr[] = {5, 6, 7, 8, 9, 10, 1, 2, 3};
          key = 3
 Output : Found at index 8
@@ -12,6 +15,8 @@ Approach: 1. find pivot element -> next element is smaller than it
              1. mid = 2  
 
 Approach 2: One sub array is always stickly increasing
+
+Complexity -> O(logn)
 */
 
 
