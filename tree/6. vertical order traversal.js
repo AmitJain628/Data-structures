@@ -41,3 +41,42 @@ let hashMap = {};
 let level = 0;
 
 printVerticalOrder(root, level, hashMap);
+
+
+
+Approach 2: Using level order traversal
+
+
+function printVerticalOrder(root){
+  let queue = [];
+  let level =0;
+  let hashMap={};
+   
+  queue.push({level, node: root});
+   
+  while(q.length){
+   let node = q.shift();
+     
+   if(!hashMap[node.level]){
+     hashMap[node.level] = [];
+   }
+     
+   level = node.level;
+     
+   hashMap[node.level].push(node.data);
+   
+   if(node.node.left !== null){
+     queue.push({level: level-1, node: node.root.left});
+   }
+     
+   if(node.node.right !== null){
+     queue.push({level: level+1, node: node.root.right});
+   }  
+   
+   // print nodes here
+  }    
+   
+   
+   
+   
+}
