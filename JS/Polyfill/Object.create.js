@@ -1,7 +1,15 @@
 if(typeof Object.create != 'function) {
- Object.create = function(param) {
+ Object.create = function(param, props) {
     var fn = function();
-    fn.prototype = param;]
-    return new fn();
+    fn.prototype = param;
+    let result =  new fn();
+    
+    if(typeof props == 'Object'){
+       if (props.hasOwnProperty((prop))) {
+        result[prop] = props[prop].value;
+      }
+    }
+    
+    return result;
   }
  }
