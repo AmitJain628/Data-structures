@@ -5,6 +5,9 @@
   3. https://jsvault.com/array-map
   4. https://tkssharma.com/interview-questions-js-qa/
   5. https://github.com/BornaSepic/Tic-Tac-Toe/blob/master/script.js
+
+
+Carousel: https://codepen.io/dhatGuy/pen/YzymwNV
   
 
 https://codeinterview.io/SQWFTIMTBN
