@@ -8,6 +8,7 @@
 
 
 Carousel: https://codepen.io/dhatGuy/pen/YzymwNV
+Stepper: https://jsfiddle.net/589pLred/
   
 
 https://codeinterview.io/SQWFTIMTBN
