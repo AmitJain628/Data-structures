@@ -1,9 +1,4 @@
 
-# Amazon Interview Questions
-1. https://www.geeksforgeeks.org/amazon-interview-questions/
-2. https://www.educative.io/blog/crack-amazon-coding-interview-questions
-3. https://practice.geeksforgeeks.org/explore/?company%5B%5D=Amazon&page=1
-
 
 # Array
 1. https://www.geeksforgeeks.org/print-distinct-elements-given-integer-array/
